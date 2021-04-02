@@ -1,0 +1,20 @@
+[127.10.10.1]
+type = TemperatureDemo 
+room = room-1-a
+floor = 1
+log = AC
+config =
+
+[127.10.11.1]
+type = TemperatureDemo
+room = room-1-b
+floor = 1
+log = AC
+config =
+
+[127.10.20.1]
+type = AcTornado
+room = room-1-b
+floor = 1
+log = AC
+config = {event: "LOW_TEMP" , room: "room-1-b", floor: "1"}
